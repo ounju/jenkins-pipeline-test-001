@@ -9,7 +9,8 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('Build2') {
+          agent any
           steps {
             echo '11111'
           }
